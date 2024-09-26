@@ -1,0 +1,58 @@
+--CSS Notes By Aadit--
+
+color: sets foreground color (rgb/hex)
+
+background-color: sets background color (rgb/hex)
+background-size: cover/contain/auto
+
+background-image: url("")
+
+text-align: center/right/left/start/end
+
+text-decoration: underline/overline/line-through/none
+text-decoration: solid/dashed/wavy/dotted
+text-decoration: color
+eg. text-decoration: black wavy underline
+
+font-family: sets type of font 
+
+types of units in css: absolute/relative
+most used unit: px (absolute)
+
+font-size: sets size of font
+
+line-height: sets height of line/spacing bw lines
+
+text-transform: uppercase/lowercase/capitalize/none
+
+--box model--
+
+height: sets the height of the content area
+width: sets the width of the content area
+
+border-width: sets border width
+border-style: solid/dottted/dashed
+border-color: sets border color
+eg. border: 2px solid black
+border-radius: used to round the corners
+
+padding: space between content and border
+padding: top|right|bottom|left
+
+margin: area between two elements outside
+margin: top|right|bottom|left
+
+display: inline (takes only space required)
+display: block (takes full width)
+display: inline-block (same as inline but can set margin/padding)
+display: none (to hide the element)
+
+visibility: hidden (hides the element and reserves space for it)
+
+position: static/relative/absolute/fixed/sticky
+
+--flexbox--
+
+flex-direction: row/row-reverse/column/column-reverse
+justify-content: center/flex-start/flex-end/space-around/space-evenly/space-between
+flex-wrap: wrap/nowrap/wrap-reverse
