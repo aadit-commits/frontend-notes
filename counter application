@@ -1,0 +1,65 @@
+HTML Code : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body>
+    <label id="myLabel">0</label>
+    <div>
+        <button id="myIncrease"> Increase</button>
+        <button id="myDecrease">Decrease</button>
+        <button id="myReset">Reset</button>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>
+
+CSS Code : 
+#myLabel{
+    display: block;
+    text-align: center;
+    font-size: 10rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+button {
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: hsl(214, 100%, 74%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+JS Code : 
+const increasebtn= document.getElementById("myIncrease");
+const decreasebtn= document.getElementById("myDecrease");
+const resetbtn= document.getElementById("myReset");
+const countlabel=document.getElementById("myLabel");
+
+let count=0;
+
+increasebtn.onclick=function(){
+    count++;
+    countlabel.textContent=count;
+}
+
+decreasebtn.onclick=function(){
+    count--;
+    countlabel.textContent=count;
+}
+
+resetbtn.onclick=function(){
+    count=0;
+    countlabel.textContent=count;
+}
