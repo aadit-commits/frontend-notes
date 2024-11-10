@@ -44,3 +44,27 @@ console.log(typeof x);
 typeof is used to print the data type of a variable.
 
 const = a variable that can't be changed
+
+Math = built-in object that provides a collection of properties and methods
+
+console.log(Math.PI)
+console.log(Math.E)
+
+let x = 1
+let y = 2
+let z = 3
+
+Math.round(x)
+Math.floor(x)
+Math.ceil(x)
+Math.trunc(x)
+Math.pow(x,y)
+Math.sqrt(x)
+Math.log(x)
+Math.sin(x)
+Math.cos(x)
+Math.tan(x)
+Math.abs(x)
+Math.sign(x)
+Math.max(x,y,z)
+Math.min(x,y,z)
