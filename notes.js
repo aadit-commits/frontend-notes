@@ -16,9 +16,9 @@ Operator Precedence :
 4.) Addition, Subtraction
 
 Accept User Prompt :
-1.) East way = window prompt
+1.) Easy way = window prompt
 let username = window.prompt("Whats your username ?");
-console.log(username)
+console.log(username);
 2.) Professional way = HTML Textbox
 HTML Code :
 <body>
@@ -31,7 +31,16 @@ JS Code :
 let username;
 document.getElementById("mySubmit").onclick = function(){
   username = doument.getElementById("myText").value;
-  document.getElementById("myH1").textContent = `Hello ${username}`
+  document.getElementById("myH1").textContent = `Hello ${username};`
 }
 
 Type Conversion : Change the datatype of a value to another
+let x = "0";
+x=Number(x);
+x=String(x);
+x=Boolean(x);
+
+console.log(typeof x);
+typeof is used to print the data type of a variable.
+
+const = a variable that can't be changed
